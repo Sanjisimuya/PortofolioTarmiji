@@ -542,7 +542,7 @@ function Work() {
               akuntansi dari sudut pandang siswa.
             </p>
             <div className="mt-8 flex items-center gap-2 text-sm font-extrabold text-slate-800">
-              <Users size={18} className="text-sky-600" /> 5 orang, 1 visi,
+              <Users size={18} className="text-sky-600" /> 3 orang, 1 visi,
               hasil sempurna.
             </div>
             </a>
