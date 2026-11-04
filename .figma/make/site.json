@@ -1,0 +1,10 @@
+{
+  "description": "Jelajahi portofolio interaktif Muhamad Tarmiji Tahir, menampilkan perjalanan, proyek, prestasi, dan keahliannya di bidang akuntansi, organisasi, dan teknologi.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
