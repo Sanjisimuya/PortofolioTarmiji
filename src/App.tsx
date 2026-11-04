@@ -447,8 +447,14 @@ function Journey() {
             </div>
           </div>
         </div>
-        <div className="mt-5 grid gap-4 rounded-[2rem] border border-slate-800 bg-gradient-to-r from-blue-950 to-slate-900 p-6 md:grid-cols-[auto_1fr_auto] md:items-center md:p-8">
-          <span className="grid size-14 place-items-center rounded-2xl bg-amber-300 text-slate-950">
+        <a
+          href="https://drive.google.com/file/d/1HJmNVeFYOOz78o4PiGlnuOIZ6i3xoMD7/view?usp=drive_link"
+          target="_blank"
+          rel="noreferrer"
+          className="project-card group mt-5 grid gap-4 rounded-[2rem] border border-slate-800 bg-gradient-to-r from-blue-950 to-slate-900 p-6 text-white md:grid-cols-[auto_1fr_auto] md:items-center md:p-8"
+          aria-label="Buka sertifikat Paskibraka Tingkat Kabupaten"
+        >
+          <span className="grid size-14 place-items-center rounded-2xl bg-amber-300 text-slate-950 transition-transform group-hover:-rotate-6">
             <Award size={27} />
           </span>
           <div>
@@ -466,7 +472,7 @@ function Journey() {
           <span className="font-mono text-xs font-bold text-slate-400">
             AGU 2024 — JUN 2025
           </span>
-        </div>
+        </a>
       </div>
     </section>
   )
