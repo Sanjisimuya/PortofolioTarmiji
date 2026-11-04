@@ -42,13 +42,13 @@ const journey = [
     icon: Palette,
   },
   {
-    role: "Wakil Ketua Divisi Sekretaris",
+    role: "Anggota Divisi Sekretaris",
     org: "PASKIBRA",
     period: "Mei 2024 — Mei 2026",
     detail:
       "Mengurus aliran kas bulanan, notulen rapat, arsip, sampai laporan pertanggungjawaban dana lomba. Rapi di meja, sigap di lapangan.",
     stat: "02",
-    label: "tahun memimpin",
+    label: "berorganisasi",
     icon: ClipboardCheck,
   },
   {
@@ -409,7 +409,7 @@ function Journey() {
                       active === index ? "text-slate-700" : "text-slate-400"
                     }
                   >
-                    {item.org === "PASKIBRA" ? "Divisi Sekretaris" : item.role}
+                    {item.org === "PASKIBRA" ? "Anggota Divisi Sekretaris" : item.role}
                   </small>
                 </span>
                 <ChevronDown
