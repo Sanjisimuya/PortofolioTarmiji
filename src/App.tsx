@@ -760,7 +760,7 @@ function Contact() {
       </div>
       <footer className="mx-auto flex max-w-7xl flex-col gap-2 px-2 py-8 text-center text-xs font-semibold text-slate-500 sm:flex-row sm:justify-between sm:text-left">
         <span>© 2026 Muhamad Tarmiji Tahir</span>
-        <span>Dibangun dengan rasa penasaran dan langit yang cerah.</span>
+        <span>Made with curiousity and a litle weaknes on my head</span>
       </footer>
     </section>
   )
