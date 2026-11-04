@@ -2,6 +2,9 @@
   "title": "Muhamad Tarmiji Tahir | Portfolio",
   "description": "Jelajahi portofolio interaktif Muhamad Tarmiji Tahir, menampilkan perjalanan, proyek, prestasi, dan keahliannya di bidang akuntansi, organisasi, dan teknologi.",
   "language": "id",
+  "icons": {
+    "icon": "/favicon.svg"
+  },
   "robots": {
     "index": false
   },
