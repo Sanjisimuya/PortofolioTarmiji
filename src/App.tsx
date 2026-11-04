@@ -106,9 +106,11 @@ function Nav() {
           className="group flex items-center gap-2 pl-1"
           aria-label="Kembali ke atas"
         >
-          <span className="grid size-9 place-items-center rounded-full bg-sky-600 text-sm font-black text-white transition-transform group-hover:-rotate-6">
-            MT
-          </span>
+  <img
+  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nilechat%20icon-yVVXxRsUVPNMuMW1TeAbRUopjrN40p.jpg"
+  alt="Logo Tarmiji Tahir"
+  className="size-9 rounded-full object-cover transition-transform group-hover:-rotate-6"
+  />
           <span className="hidden text-sm font-extrabold tracking-tight text-slate-900 sm:block">
             Tarmiji Tahir
           </span>
@@ -121,8 +123,8 @@ function Nav() {
           ))}
         </div>
         <a
-          href="mailto:Mijitahir7@gmail.com"
-          className="hidden min-h-11 items-center gap-2 rounded-full bg-slate-950 px-5 text-sm font-bold text-white transition hover:bg-sky-600 md:flex"
+  href="#contact"
+  className="hidden min-h-11 items-center gap-2 rounded-full bg-slate-950 px-5 text-sm font-bold text-white transition hover:bg-sky-600 md:flex"
         >
           Mari ngobrol <ArrowUpRight size={16} />
         </a>
