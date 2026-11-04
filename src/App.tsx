@@ -48,7 +48,7 @@ const journey = [
     detail:
       "Mengurus aliran kas bulanan, notulen rapat, arsip, sampai laporan pertanggungjawaban dana lomba. Rapi di meja, sigap di lapangan.",
     stat: "02",
-    label: "berorganisasi",
+    label: "tahun berorganisasi",
     icon: ClipboardCheck,
   },
   {
