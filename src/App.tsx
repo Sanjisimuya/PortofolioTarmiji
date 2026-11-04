@@ -516,8 +516,14 @@ function Work() {
             </div>
             <div className="absolute -bottom-16 -right-16 size-64 rounded-full border-[45px] border-white/10 transition-transform duration-500 group-hover:scale-110" />
           </article>
-          <article className="project-card group bg-white lg:col-span-5">
-            <div className="flex items-start justify-between">
+            <a
+              className="project-card group bg-white lg:col-span-5"
+              href="https://drive.google.com/file/d/1SE_HTm_sj9EoTdrKDzSe-0xZbEOihP9Z/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Buka Accurate Guide Book"
+            >
+              <div className="flex items-start justify-between">
               <span className="project-icon bg-cyan-100 text-cyan-700">
                 <BookOpen size={28} />
               </span>
@@ -539,7 +545,7 @@ function Work() {
               <Users size={18} className="text-sky-600" /> 5 orang, 1 visi,
               hasil sempurna.
             </div>
-          </article>
+            </a>
           <article className="project-card bg-cyan-100 lg:col-span-4">
             <span className="project-icon bg-white text-cyan-700">
               <CircleCheck size={28} />
