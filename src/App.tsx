@@ -546,7 +546,13 @@ function Work() {
               hasil sempurna.
             </div>
             </a>
-          <article className="project-card bg-cyan-100 lg:col-span-4">
+          <a
+            className="project-card group bg-cyan-100 lg:col-span-4"
+            href="https://drive.google.com/file/d/1W7AIG4NBmE78Cnib7Td1Tm3tUDE0Iqg9/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Buka sertifikat BNSP Software Accurate"
+          >
             <span className="project-icon bg-white text-cyan-700">
               <CircleCheck size={28} />
             </span>
@@ -556,8 +562,14 @@ function Work() {
             <p className="mt-3 text-sm leading-6 text-slate-600">
               Pelatihan & sertifikasi kompetensi · Oktober 2025
             </p>
-          </article>
-          <article className="project-card bg-indigo-100 lg:col-span-4">
+          </a>
+          <a
+            className="project-card group bg-indigo-100 lg:col-span-4"
+            href="https://drive.google.com/file/d/1XkS96xdNNF3GXZDaN8n4wXALVeIiMR2F/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Buka sertifikat UKK Akuntansi LSP"
+          >
             <span className="project-icon bg-white text-indigo-700">
               <FileText size={28} />
             </span>
@@ -570,7 +582,7 @@ function Work() {
             <span className="mt-5 inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-indigo-700">
               <Check size={15} /> Dinyatakan kompeten
             </span>
-          </article>
+          </a>
           <article className="project-card bg-slate-950 text-white lg:col-span-4">
             <span className="font-mono text-xs font-bold uppercase tracking-widest text-sky-400">
               Pendidikan
